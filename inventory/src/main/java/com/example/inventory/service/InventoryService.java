@@ -19,28 +19,28 @@ public class InventoryService {
     @Autowired
     private ModelMapper modelMapper;
     
-    public List<InventoryDTO> getAllInventory() {
+    public List<InventoryDTO> getItems() {
         List<Inventory> productList = inventoryRepo.findAll();
         return modelMapper.map(productList, new TypeToken<List<InventoryDTO>>(){}.getType());
     }
     
-    public InventoryDTO createInventory(InventoryDTO orderDTO) {
-        inventoryRepo.save(modelMapper.map(orderDTO, Inventory.class));
-        return orderDTO;
+    public InventoryDTO addItem(InventoryDTO inventoryDTO) {
+        inventoryRepo.save(modelMapper.map(inventoryDTO, Inventory.class));
+        return inventoryDTO;
     }
     
-    public InventoryDTO updateInventory(InventoryDTO orderDTO) {
-        inventoryRepo.save(modelMapper.map(orderDTO, Inventory.class));
-        return orderDTO;
+    public InventoryDTO updateItem(InventoryDTO inventoryDTO) {
+        inventoryRepo.save(modelMapper.map(inventoryDTO, Inventory.class));
+        return inventoryDTO;
     }
     
-    public String deleteInventory(Integer orderId) {
-        inventoryRepo.deleteById(orderId);
-        return "Inventory deleted";
+    public String deleteItem(Integer inventoryId) {
+        inventoryRepo.deleteById(inventoryId);
+        return "Item deleted";
     }
     
-    public InventoryDTO getInventoryById(Integer orderId) {
-        Inventory order = inventoryRepo.getInventoryById(orderId);
-        return modelMapper.map(order, InventoryDTO.class);
+    public InventoryDTO getItemById(Integer itemId) {
+        Inventory item = inventoryRepo.getItemById(itemId);
+        return modelMapper.map(item, InventoryDTO.class);
     }
 }
