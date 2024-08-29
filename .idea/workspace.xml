@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="06588cb1-fb9e-43c8-bc66-483212e388e7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/config/WebClientConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/example/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/example/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/example/product/repo/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/example/product/repo/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/example/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/example/product/service/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,8 +135,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.OrderApplication" />
-        <item itemvalue="Spring Boot.InventoryApplication" />
         <item itemvalue="Spring Boot.ProductApplication" />
+        <item itemvalue="Spring Boot.InventoryApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +154,7 @@
       <workItem from="1724762477226" duration="561000" />
       <workItem from="1724764647672" duration="3068000" />
       <workItem from="1724856897478" duration="12317000" />
-      <workItem from="1724928117870" duration="3975000" />
+      <workItem from="1724928117870" duration="7094000" />
     </task>
     <servers />
   </component>
