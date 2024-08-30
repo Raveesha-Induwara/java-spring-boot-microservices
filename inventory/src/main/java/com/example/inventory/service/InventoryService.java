@@ -1,8 +1,8 @@
-package com.example.base.service;
+package com.example.inventory.service;
 
-import com.example.base.dto.InventoryDTO;
-import com.example.base.model.Inventory;
-import com.example.base.repo.InventoryRepo;
+import com.example.inventory.dto.InventoryDTO;
+import com.example.inventory.model.Inventory;
+import com.example.inventory.repo.InventoryRepo;
 import jakarta.transaction.Transactional;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;

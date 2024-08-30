@@ -1,4 +1,4 @@
-package com.example.base;
+package com.example.inventory;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
