@@ -1,6 +1,6 @@
 package com.example.order.service;
 
-import com.example.inventory.dto.InventoryDTO;
+import com.example.base.dto.InventoryDTO;
 import com.example.order.common.ErrorOrderResponse;
 import com.example.order.common.OrderResponse;
 import com.example.order.common.SuccessOrderResponse;
@@ -14,6 +14,7 @@ import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
+import org.springframework.web.reactive.function.client.WebClientResponseException;
 
 import java.util.List;
 
@@ -71,8 +72,10 @@ public class OrderService {
             else {
                 return new ErrorOrderResponse("Item not available, please try later");
             }
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (WebClientResponseException e) {
+            if(e.getStatusCode().is5xxServerError()) {
+                return new ErrorOrderResponse("Item not found");
+            }
         }
         return  null;
     }
