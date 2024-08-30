@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06588cb1-fb9e-43c8-bc66-483212e388e7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/config/WebClientConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,8 +81,17 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
-    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Compound.ABCCompany">
+    <configuration name="ABCCompany" type="CompoundRunConfigurationType">
+      <toRun name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="BaseApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="InventoryApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="OrderApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="ProductApplication" type="SpringBootApplicationConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="apigateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.apigateway.apigateway.ApiGatewayApplication" />
       <extension name="coverage">
@@ -110,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="discoveryserver" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.discoveryserver.discoveryserver.DiscoveryServerApplication" />
       <extension name="coverage">
@@ -130,7 +138,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InventoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="InventoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="inventory" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.inventory.InventoryApplication" />
       <extension name="coverage">
@@ -143,7 +151,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="order" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.order.OrderApplication" />
       <extension name="coverage">
@@ -156,7 +164,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
       <module name="product" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.product.ProductApplication" />
       <extension name="coverage">
@@ -170,6 +178,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Compound.ABCCompany" />
       <item itemvalue="Spring Boot.BaseApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.InventoryApplication (1)" />
@@ -179,15 +188,6 @@
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.ProductApplication" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.ApiGatewayApplication" />
-        <item itemvalue="Spring Boot.OrderApplication" />
-        <item itemvalue="Spring Boot.InventoryApplication" />
-        <item itemvalue="Spring Boot.ProductApplication" />
-        <item itemvalue="Spring Boot.DiscoveryServerApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -203,7 +203,7 @@
       <workItem from="1724762477226" duration="561000" />
       <workItem from="1724764647672" duration="3068000" />
       <workItem from="1724856897478" duration="12317000" />
-      <workItem from="1724928117870" duration="31404000" />
+      <workItem from="1724928117870" duration="33019000" />
     </task>
     <servers />
   </component>
