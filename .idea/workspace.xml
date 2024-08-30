@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06588cb1-fb9e-43c8-bc66-483212e388e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/example/inventory/kafka/OrderConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discoveryserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discoveryserver/src/main/java/com/discoveryserver/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discoveryserver/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discoveryserver/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discoveryserver/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discoveryserver/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discoveryserver/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/test/java/com/example/base/BaseApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/test/java/com/example/base/BaseApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/src/test/java/com/example/inventory/InventoryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/test/java/com/example/inventory/InventoryApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +181,7 @@
       <workItem from="1724762477226" duration="561000" />
       <workItem from="1724764647672" duration="3068000" />
       <workItem from="1724856897478" duration="12317000" />
-      <workItem from="1724928117870" duration="21919000" />
+      <workItem from="1724928117870" duration="24794000" />
     </task>
     <servers />
   </component>
