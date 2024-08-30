@@ -1,6 +1,6 @@
 package com.example.order.service;
 
-import com.example.base.dto.InventoryDTO;
+import com.example.inventory.dto.InventoryDTO;
 import com.example.order.common.ErrorOrderResponse;
 import com.example.order.common.OrderResponse;
 import com.example.order.common.SuccessOrderResponse;

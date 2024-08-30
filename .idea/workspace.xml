@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06588cb1-fb9e-43c8-bc66-483212e388e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/example/inventory/kafka/OrderConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/kafka/OrderProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/kafka/OrderProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/src/test/java/com/example/base/BaseApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/test/java/com/example/base/BaseApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/src/test/java/com/example/inventory/InventoryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/test/java/com/example/inventory/InventoryApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BaseApplication">
+  <component name="RunManager" selected="Spring Boot.OrderApplication">
     <configuration name="BaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="base" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.base.BaseApplication" />
@@ -103,9 +102,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InventoryApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="inventory" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.inventory.InventoryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InventoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="inventory" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.base.InventoryApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.inventory.InventoryApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.base.*" />
@@ -142,11 +148,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.BaseApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.InventoryApplication (1)" />
+      <item itemvalue="Spring Boot.InventoryApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderApplication" />
         <item itemvalue="Spring Boot.ProductApplication" />
         <item itemvalue="Spring Boot.InventoryApplication" />
-        <item itemvalue="Spring Boot.OrderApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +178,7 @@
       <workItem from="1724762477226" duration="561000" />
       <workItem from="1724764647672" duration="3068000" />
       <workItem from="1724856897478" duration="12317000" />
-      <workItem from="1724928117870" duration="17827000" />
+      <workItem from="1724928117870" duration="21919000" />
     </task>
     <servers />
   </component>
