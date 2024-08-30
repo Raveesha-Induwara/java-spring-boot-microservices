@@ -1,4 +1,4 @@
-package com.example.inventory.model;
+package com.example.base.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

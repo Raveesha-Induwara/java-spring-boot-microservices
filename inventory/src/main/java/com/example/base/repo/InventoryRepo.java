@@ -1,6 +1,6 @@
-package com.example.inventory.repo;
+package com.example.base.repo;
 
-import com.example.inventory.model.Inventory;
+import com.example.base.model.Inventory;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
